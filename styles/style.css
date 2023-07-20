@@ -132,11 +132,18 @@ body {
 
 @media(max-width: 1200px) {
     .cabecalho{
-        padding: 8%;
+        margin: 0;
+        padding: 20px;
+        width: 80px;
+        background-color: transparent;
+        position: fixed;
+        height: 30%;
+        overflow: auto;
     }
     
     .cabecalho_menu {
-        justify-content: space-between;
+        gap: 20px;
+        flex-direction: column;
     }
     
     .apresentacao {
@@ -144,11 +151,12 @@ body {
     }
     
     .apresentacao_conteudo {
-        width: auto;
+        width: 100%;
+        margin: 0% 0% 0% 40%;
     }
 
     .apresentacao_imagem {
-        width: auto;
+        width: 50%;
     }
 
     .apresentacao_links_link {
