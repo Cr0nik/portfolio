@@ -156,7 +156,7 @@ body {
     }
 
     .apresentacao_imagem {
-        width: 50%;
+        width: auto;
     }
 
     .apresentacao_links_link {
