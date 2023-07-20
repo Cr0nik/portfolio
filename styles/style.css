@@ -132,7 +132,7 @@ body {
 
 @media(max-width: 1200px) {
     .cabecalho{
-        margin: 0;
+        margin: 70% 0% 0% 0%;
         padding: 20px;
         width: 80px;
         background-color: transparent;
