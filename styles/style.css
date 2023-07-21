@@ -162,4 +162,8 @@ body {
     .apresentacao_links_link {
         width: 100%;
     }
+
+    .rodape {
+        padding: 1vh;
+    }
 }
