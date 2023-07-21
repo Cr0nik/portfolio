@@ -21,7 +21,7 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 2% 15%;
+    padding: 1% 0% 2% 15%;
     background-color: var(--cor-textos);
 
 }
@@ -32,11 +32,21 @@ body {
 }
 
 .cabecalho_menu_link {
+    background-color: var(--cor-background);
     font-size: 1.5rem;
     font-family: var(--fonte);
     font-weight: 100;
     text-decoration: none;
-    color: var(--cor-background); 
+    color: var(--cor-textos); 
+    text-align: center;
+    border: 2px solid var(--cor-background);
+    width: 10%;
+    border-radius: 8px;
+    padding: 1vh 0;
+}
+
+.cabecalho_menu_link:hover {
+    background-color: var(--cor-hoover);
 }
 
 .apresentacao {
