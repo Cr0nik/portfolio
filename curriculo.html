@@ -9,12 +9,19 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho_menu">
-            <a class="cabecalho_menu_link" href="index.html" >Home</a>
-            <a class="cabecalho_menu_link" href="about.html" >Sobre mim</a>
-            <a class="cabecalho_menu_link" href="curriculo.html">Currículo</a>
-            <a class="cabecalho_menu_link" href="projetos.html">Projetos</a>
-        </nav>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+            <div class="card-body">
+                <a id="shmenulinks" class="nav-link cabecalho_menu style="border-radius: 0.25rem; cursor: pointer; width: 100%;" data-toggle="collapse" aria-expanded="true" aria-controls="menulinks" data-target="#menulinks"><i class="fa fa-bars" aria-hidden="true"></i> Informações extras</a>
+                <div id="menulinks" class="nav nav-pills collapse cabecalho_menu">
+                    <a class="cabecalho_menu_link" href="index.html" >Home</a>
+                    <a class="cabecalho_menu_link" href="about.html" >Sobre mim</a>
+                    <a class="cabecalho_menu_link" href="curriculo.html">Currículo</a>
+                    <a class="cabecalho_menu_link" href="projetos.html">Projetos</a>
+                </div>
+            </div>
     </header>
     <main class="apresentacao">
         <section class="apresentacao_conteudo">
