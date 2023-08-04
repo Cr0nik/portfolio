@@ -108,7 +108,6 @@ body {
     border-radius: 8px;
     font-size: 1.25rem;
     padding: 1vh 0;
-    text-decoration: none;
     color: var(--cor-textos);
     font-family: var(--fonte);
 }
@@ -121,6 +120,8 @@ body {
 
 .apresentacao_links_link:hover {
     background-color: var(--cor-hoover);
+    text-decoration: none;
+    color: var(--cor-textos);
 }
 
 .apresentacao_imagem{
@@ -143,6 +144,7 @@ body {
     font-family: var(--fonte);
     font-weight: 100;
     text-align: center;
+    margin-bottom: 0%;
 }
 
 @media(max-width: 1200px) {
@@ -190,5 +192,6 @@ body {
 
     .rodape {
         padding: 1vh;
+        margin-bottom: 0%;
     }
 }
