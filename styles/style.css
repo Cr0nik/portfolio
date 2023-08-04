@@ -132,6 +132,10 @@ body {
     font-family: var(--fonte);
     font-size: 1.5rem;
     font-weight: 100;
+    color: var(--cor-destaques);
+}
+
+.link_textos:hover {
     text-decoration: none;
     color: var(--cor-destaques);
 }
